@@ -52,7 +52,11 @@ const CoilWire: CSQuest = {
     },
     {
       name: "Fruity Skeleton",
+<<<<<<< HEAD
       class: $classes`Sauceror, Seal Clubber, Turtle Tamer`,
+=======
+      class: $classes`Sauceror`,
+>>>>>>> 912a73a (Don't fight skeleton as muscle)
       completed: () => have($item`cherry`),
       ready: () => !have($effect`Everything Looks Yellow`),
       do: (): void => {
